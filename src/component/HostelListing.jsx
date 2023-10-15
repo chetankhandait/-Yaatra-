@@ -39,7 +39,7 @@ const HotelListing = (k) => {
               <h4 className='text-base'>{k.type} </h4>
               <p className='flex flex-col mt-2  '>
 
-                <h3 className='font-normal text-lg font-semibold '>
+                <h3 className='font-normal text-lg  '>
                  {k.rooms}
                 </h3>
                 <h3 className=''>

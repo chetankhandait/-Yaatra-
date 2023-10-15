@@ -1,22 +1,25 @@
-import React from 'react';
-import { MapContainer,TileLayer, Marker, Popup } from 'react-leaflet';
+import React from 'react'
+import {getDatabase,ref,set} from "firebase/database"
+import { app } from './component/Firebase'
 
-function MapComponent() {
-  const position = [51.505, -0.09]; // latitude and longitude
- 
-  return (
-    <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
-      <TileLayer
-        attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <Marker position={position}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
-    </MapContainer>
-  );
+
+const db = getDatabase(app)
+
+const Test = () => {
+const putData= ()=>{
+  set(ref(db,"user/chetan"),{
+    id:1,
+    name:"chetan",
+    age:20,
+  })
 }
 
-export default MapComponent;
+  return (
+    <div>
+      <h3>this is test react </h3>
+      <button onClick={putData}>data</button>
+    </div>
+  )
+}
+
+export default Test
