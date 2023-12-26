@@ -2,3 +2,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+.leaflet-container {
+    height: 248px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive {
+    border-radius: 10px;
+}
+
+
+body {
+    scroll-behavior: smooth;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+
+.slick-dots li button:before{
+    font-size: 20px;
+}

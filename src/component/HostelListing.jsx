@@ -1,73 +1,54 @@
-import React from 'react'
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import Data from "../Data/Data";
+import PhotoCollage from "./PhotoCollage";
+import Slider from "react-slick";
+// import SepratePage from './SepratePage';
 
-
-const HotelListing = (k) => {
-
-
-
-
-
-
-
-
+const HotelListing = () => {
+  const setting = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+  };
 
   return (
+    <div className="flex flex-wrap flex-1 items-center justify-center ">
+      {
+        // console.log(Data)
+        Data.map((k) => {
+          {
+            // console.log(k.img);
+          }
+          return (
+            <Link to={`/detail/${k.id}`}>
+              <div className="  my-2  rounded-md">
+                <img
+                  src={k.img}
+                  alt=""
+                  className="h-[312px] rounded-md object-cover sm:h-[210px] "
+                />
+                {/* <PhotoCollage {...k} /> */}
+                <div>
+                  <ul>
+                    <li className="font-bold">{k.name}</li>
+                    <li>{k.type}</li>
+                    <li>{k.rooms}</li>
+                  </ul>
+                </div>
 
-
-
-
-    <div className='shadow-md pt-2 mx-6 w-full border'>
-       <div className='flex flex-col py-[0.7rem] px-[1.9]'>
-        <div className='flex mb-1 ' >
-          <div className="pr-[27px] " >
-
-            <img src={k.img} alt="" className='h-60 pl-2.5 pr-2.5' />
-          </div>
-          <div className='flex justify-start'>
-
-
-
-          <div className="flex flex-col  gap-1">
-            <h3 className='text-xl font-[600]  ' >{k.name}</h3>
-            <div className="flex flex-col mt-3 gap-2">
-              <p>
-                <a href='/' className='text-blue-900 underline'>
-                  show on map
-                </a>
-              </p>
-
-              <h4 className='text-base'>{k.type} </h4>
-              <p className='flex flex-col mt-2  '>
-
-                <h3 className='font-normal text-lg  '>
-                 {k.rooms}
-                </h3>
-                <h3 className=''>
-                  Free cancellation
-                </h3>
-                <h3 className='mt-1'>
-                  No prepayment needed - pay at the property
-                </h3>
-              </p>
-            </div>
-
-
-
-
-
-
-          </div>
-          </div>
-        </div>
-
-
-
-
-
-
-      </div>
+                {/* <h2 className='bg-black text-slate-100 px-2 py-2 rounded-md  text-center cursor-pointer'> Know more   </h2> */}
+              </div>
+            </Link>
+          );
+        })
+      }
     </div>
-  )
-}
+  );
+};
 
-export default HotelListing
+export default HotelListing;

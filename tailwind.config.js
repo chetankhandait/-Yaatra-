@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'mooli':'Mooli'
+        'mooli':'Mooli',
+        'neon':'Neon'
       }
     },
   },

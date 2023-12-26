@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import App from './App';
+import Home from './Component/Home';
 
 function Loader() {
   const [loading, setLoading] = useState(true);
@@ -26,7 +27,7 @@ function Loader() {
         // Render your main content when loading is false
         <div className="main-content">
           {/* Your main SVG content goes here */}
-          <main/>
+          <Home/>
         </div>
       )}
     </div>
