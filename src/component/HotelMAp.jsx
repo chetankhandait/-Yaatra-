@@ -15,7 +15,7 @@ const HotelMAp = (geocode) => {
     <MapContainer
       center={geocode.location}
       zoom={13}
-      className="bg-green-500 h-[248px] rounded-lg "
+      className="  h-[300px] rounded-lg  z-[1]"
     >
       <TileLayer
         attribution='<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

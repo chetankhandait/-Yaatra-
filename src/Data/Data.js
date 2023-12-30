@@ -1,318 +1,241 @@
 const Data = [
     {
         id: "one",
-        name: "FabHotel Prime The Wish",
+        name: "Ko Samui, Thailand"
+        ,
         type: "Single Room",
         rooms: "Superier Double Room",
-        img:[ "https://cf.bstatic.com/xdata/images/hotel/square600/468989419.webp?k=4d02aef8e09d9dc87d510edf0977020f49559b6ed24775743504ab0db689b0c0&o=","https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=", "https://cf.bstatic.com/xdata/images/hotel/square600/468989419.webp?k=4d02aef8e09d9dc87d510edf0977020f49559b6ed24775743504ab0db689b0c0&o=","https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=" ]
+        dp:"https://a0.muscache.com/im/pictures/982ef679-2ce5-45f5-96c9-f66b34244be7.jpg?im_w=960",
+        img:[ "https://a0.muscache.com/im/pictures/982ef679-2ce5-45f5-96c9-f66b34244be7.jpg?im_w=960" ,
+        "https://a0.muscache.com/im/pictures/miso/Hosting-28298543/original/2f63e7c9-1133-49ac-b75d-dff79b61920e.jpeg?im_w=480",
+         "https://a0.muscache.com/im/pictures/a279ba4f-eb9a-4743-b9fe-3d042fe9fb84.jpg?im_w=480","https://a0.muscache.com/im/pictures/81423324-52d0-49d9-9f2d-6ce2f817808d.jpg?im_w=1200","https://a0.muscache.com/im/pictures/3019ad9f-9745-4512-a86a-7368fdeda540.jpg?im_w=720" ]
         
         ,
-        geocode: [35.104720, -81.234120],
+        geocode: [9.5071545, 99.9957562],
 
-        description: "PRivate Hoga kuch ",
-        price: "12000",
+        description: "A mini pool villa for a couple who look for a nice and quiet vacation. Located in the Heart of Bang MaKham, local of Koh Samui. The sunset of Bang MaKham will be your best experience of your vacation. ",
+        capicaty:"2 guests 1bedroom  1bed  1private bathroom",
+        review :"4.84 ",
+        reviewCount : 162 ,
+        price: "4621",
         guest: '16+ ',
-        owner: 'chetan khandait ',
+        owner: 'Twesuk  ',
+        ownerImg: "https://a0.muscache.com/im/pictures/user/c9d70d6c-f4ec-4438-a065-f47839c203d3.jpg?im_w=240",
+        Feature : [      "   This is a rare Find " , 
+                           "Hoted by  " ,
+                        " Free Cancelation for 48hr" , 
+                          "thada pani",
+                          "Self check-in", 
+                        
+                  ],
+
+        reviewText :[
+          {
+            id: 1,
+            author: " Lara",
+            country : "Riyadh ,Saudi Arabia ",
+            content: "It was really a very nice place, unfortunately just a little away from the shot",
+            rating: 5,
+          },
+          {
+            id: 2,
+            author: "Moath ",
+            country : "Aalen,Germany  ",
+            content: "Very nice guests try to help you in every way , smiling does not leave them the room very clean The bed is the top of comfort , the details are better than five stars , I highly recommend,",
+            rating: 4,
+          },
+          {
+            id: 3,
+            author: "Sam Johnson",
+            country : "Germany  ",
+            content: "Great staff and good food.",
+            rating: 4,
+          },
+          {
+            id: 4,
+            author: "Nico ",
+            content: "The best in Koh Samui! Amazing staff, lovely room, and delicious breakfast!! I miss it already!",
+            rating: 3,
+          },
+        ] ,
+
+
+        DetailDescription : 'Ko Samui, Surat Thani, Thailand Mostly our property are locate on the main road and surrounded by the local of Bang MaKham such as Local seafood restaurant and Family Mart (24 hr grocery shop). We are nearby the "Four Season Resort" and we are next to "The Mud". We are 15 mins away from Nathon Pier and there is a shuttle bus or the Public Transfer passing us. We are 45 mins away from the International Airport of Koh Samui.',
+
     },
-
-
-
-
     {
         id: "two",
-        name: "Radisson BhopalOpens ",
-        type: "Double  Room",
+        name: "Meeru Island, Maldives"
+        ,
+        type: "Private Room",
         rooms: "Superier Double Room",
-        img:[ "https://cf.bstatic.com/xdata/images/hotel/square600/468989419.webp?k=4d02aef8e09d9dc87d510edf0977020f49559b6ed24775743504ab0db689b0c0&o=","https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=", "https://cf.bstatic.com/xdata/images/hotel/square600/468989419.webp?k=4d02aef8e09d9dc87d510edf0977020f49559b6ed24775743504ab0db689b0c0&o=","https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=" ]
+        dp:"https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/0c02812e-6673-4058-9e30-6e0b5495f997.jpeg?im_w=720",
+
+        img:[ "https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/0c02812e-6673-4058-9e30-6e0b5495f997.jpeg?im_w=720" ,
+        "https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/fc841f2d-013a-4c22-84c0-2f69e63e22e4.png?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/1aeb2bde-934b-4878-9757-de8d9f18f134.jpeg?im_w=720","https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/90fe7d2d-c59d-44ac-985a-2fe8a7fb6f55.jpeg?im_w=720","https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/27219e80-c31e-41c8-8a66-72ee1f5c189f.jpeg?im_w=1200","https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/bdb23adf-2932-4230-8171-164703833d69.jpeg?im_w=1200" ,"https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/d062290b-cfe9-402c-9df4-39cd319c0b97.jpeg?im_w=1200","https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/64bb76f0-40ed-4623-b6c1-719054377258.jpeg?im_w=1200","https://a0.muscache.com/im/pictures/miso/Hosting-738879331663769852/original/c43c6650-1fb8-4a54-b246-4c50ff2ddf96.jpeg?im_w=1200"]
         
         ,
-        geocode: [23.193040, 77.414860],
-        description: "bla bla  ",
-        price: "30000",
-        guest: '20+',
+        geocode: [4.4541718, 73.7168553],
 
-        owner: 'vanshika khandait ',
+        description: 'Showing off with one of the worlds most remarkable beaches, Island Resort welcomes you to experience an original beach filled holidays. Entire Water villa on stilt with Jacuzzi in  private island  1 hour speedboat ride ',
+        capicaty:"3 guests 1bedroom 1bed 1private bathroom",
+        review :"4.84 ",
+        reviewCount : 16  ,
+        price: "59894",
+        guest: '18+  ',
+        owner: 'Sajjad  ',
+        ownerImg:'https://a0.muscache.com/im/pictures/user/c74ad8cf-32dd-46ff-b5a0-10dec4892e4c.jpg?im_w=240',
+        Feature : [      " Dive right in  " , 
+                           "Hoted by   " ,
+                           "is a Superhost ",
+                        " Free Cancelation for 48hr" , 
+                          "thada pani",
+                          "Self check-in", 
+                        
+                  ],
+
+        reviewText :[
+          {
+            id: 1,
+            author: " Mmadi ",
+            country : "France ",
+            content: "We are delighted to say that our stay at this property was a heavenly and beautiful experience. The facilities were beautiful and the staff was very helpful and attentive.",
+            rating: 5,
+          },
+          
+        ] ,
+
+
+        DetailDescription : ' ',
+
+    },
+
+
+    {
+        id: "three",
+        name: "Hikkaduwa, Sri Lanka"
+        ,
+        type: "Private Room",
+        rooms: "Superier Double Room",
+        dp:"https://a0.muscache.com/im/pictures/37b61ebe-5dec-4732-b695-767752807e80.jpg?im_w=960",
+
+        img:[ " https://a0.muscache.com/im/pictures/37b61ebe-5dec-4732-b695-767752807e80.jpg?im_w=960" ,
+        "https://a0.muscache.com/im/pictures/5f00356d-2394-42b3-b7fd-1a77508db7b6.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/a148bcf2-6daf-4a67-898c-2603b922f6f6.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/1dc4b4bb-72ca-41f0-bc3d-28c1c4c28392.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/d1fcc87c-177f-4d06-b166-95f9b11b95ac.jpg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/b2ec5a4d-07fd-4029-9f46-b5d9688c17ee.jpg?im_w=720" 
+         ,
+         "https://a0.muscache.com/im/pictures/82856795-94f3-48c3-ba87-4e0fa94a846d.jpg?im_w=720"
+         ,"https://a0.muscache.com/im/pictures/0565aa7f-af75-4322-9a43-a39c99ee155f.jpg?im_w=720"
+         ,"https://a0.muscache.com/im/pictures/03f25b03-3bcb-48d7-8b84-f89d7872310a.jpg?im_w=1200"]
+        
+        ,
+        geocode: [6.140753, 80.1028181],
+
+        description: 'Showing off with one of the worlds most remarkable beaches, Island Resort welcomes you to experience an original beach filled holidays. Entire Water villa on stilt with Jacuzzi in  private island  1 hour speedboat ride ',
+        capicaty:"3 guests 1bedroom 1bed 1private bathroom",
+        review :"4.84 ",
+        reviewCount : 16  ,
+        price: "59894",
+        guest: '18+  ',
+        owner: 'Sajjad  ',
+        ownerImg:'https://a0.muscache.com/im/pictures/user/c74ad8cf-32dd-46ff-b5a0-10dec4892e4c.jpg?im_w=240',
+        Feature : [      " Dive right in  " , 
+                           "Hoted by   " ,
+                           "is a Superhost ",
+                        " Free Cancelation for 48hr" , 
+                          "thada pani",
+                          "Self check-in", 
+                        
+                  ],
+
+        reviewText :[
+          {
+            id: 1,
+            author: " Mmadi ",
+            country : "France ",
+            content: "We are delighted to say that our stay at this property was a heavenly and beautiful experience. The facilities were beautiful and the staff was very helpful and attentive.",
+            rating: 5,
+          },
+          
+        ] ,
+
+
+        DetailDescription : ' ',
+
     },
     {
-        id: "3",
-        name: "H3 ",
-        type: "Double  Room",
+        id: "four",
+        name: "Barashiv, India"
+        ,
+        type: "Private Room",
         rooms: "Superier Double Room",
-        img:[ "https://cf.bstatic.com/xdata/images/hotel/square600/468989419.webp?k=4d02aef8e09d9dc87d510edf0977020f49559b6ed24775743504ab0db689b0c0&o=","https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=", "https://cf.bstatic.com/xdata/images/hotel/square600/468989419.webp?k=4d02aef8e09d9dc87d510edf0977020f49559b6ed24775743504ab0db689b0c0&o=","https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=" ]
+        dp: "https://a0.muscache.com/im/pictures/bce4ba91-39b4-4620-8643-bacba0d17a73.jpg?im_w=960",
+
+        img: [
+            "https://a0.muscache.com/im/pictures/453cf58d-fe68-4aff-a235-9b14f39cc180.jpg?im_w=720",
+            "https://a0.muscache.com/im/pictures/e7a1611e-2655-423c-93f6-0a01cf8c1c30.jpg?im_w=720",
+            "https://a0.muscache.com/im/pictures/0180d248-5391-4d2a-8db5-cc969711f3a9.jpg?im_w=720",
+            "https://a0.muscache.com/im/pictures/24a1897a-1320-4e59-a74c-06addc41043e.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/a5c70bf4-46d8-4d84-9006-1258d17ae6f0.jpg?im_w=720",
+            "https://a0.muscache.com/im/pictures/85ee3555-046c-49f6-b54a-de884d8a2e64.jpg?im_w=1200"
+        ]
         
         ,
-        geocode: [23.193040, 77.414860],
-        description: "bla bla  ",
-        price: "30000",
-        guest: '20+',
+        geocode: [6.140753, 80.1028181],
 
-        owner: 'vanshika khandait ',
+        description: 'Showing off with one of the worlds most remarkable beaches, Island Resort welcomes you to experience an original beach filled holidays. Entire Water villa on stilt with Jacuzzi in  private island  1 hour speedboat ride ',
+        capicaty:"3 guests 1bedroom 1bed 1private bathroom",
+        review :"4.84 ",
+        reviewCount : 16  ,
+        price: "41200",
+        guest: '18+  ',
+        owner: 'Sajjad  ',
+        ownerImg:'https://a0.muscache.com/im/pictures/user/c74ad8cf-32dd-46ff-b5a0-10dec4892e4c.jpg?im_w=240',
+        Feature : [      " Dive right in  " , 
+                           "Hoted by   " ,
+                           "is a Superhost ",
+                        " Free Cancelation for 48hr" , 
+                          "thada pani",
+                          "Self check-in", 
+                          "Pets allowed ",
+                          "Air condentioning "
+                        
+                  ],
+
+                  reviewText: [
+                    {
+                      "id": 1,
+                      "author": "Sophie",
+                      "country": "United Kingdom",
+                      "content": "Our stay at Ubud Retreat was magical. The villa is beautifully designed, and the staff is attentive to every detail. We enjoyed the serene atmosphere and the stunning views from the balcony.",
+                      "rating": 5
+                    },
+                    {
+                      "id": 2,
+                      "author": "Ravi",
+                      "country": "India",
+                      "content": "The Luxury Suite exceeded our expectations. The bed was incredibly comfortable, and the bathroom was spacious. The host, Putu, was gracious and provided excellent recommendations for exploring Ubud.",
+                      "rating": 4
+                    }
+                  ],
+
+        DetailDescription : ' ',
+
     },
 
 
+     
+     
 
-    // {
-    //     id: "two",
-    //     name: "Radisson BhopalOpens ",
-    //     type: "Double  Room",
-    //     rooms: "Superier Double Room",
-    //     img: "https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=",
-    //     geocode: [23.193040, 77.414860],
-    //     description: "bla bla  ",
-    //     price: "30000",
-    //     guest: '20+',
-
-    //     owner: 'vanshika khandait ',
-    // },
-    // {
-    //     id: "two",
-    //     name: "Radisson BhopalOpens ",
-    //     type: "Double  Room",
-    //     rooms: "Superier Double Room",
-    //     img: "https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=",
-    //     geocode: [23.193040, 77.414860],
-    //     description: "bla bla  ",
-    //     price: "30000",
-    //     guest: '20+',
-
-    //     owner: 'vanshika khandait ',
-    // },
-    // {
-    //     id: "two",
-    //     name: "Radisson BhopalOpens ",
-    //     type: "Double  Room",
-    //     rooms: "Superier Double Room",
-    //     img: "https://cf.bstatic.com/xdata/images/hotel/square600/321192980.webp?k=da53ab42a7789b304798e9d51ccaa1f0d8c0707bb82213d7c2049d3e8e1479e5&o=",
-    //     geocode: [23.193040, 77.414860],
-    //     description: "bla bla  ",
-    //     price: "30000",
-    //     guest: '20+',
-
-    //     owner: 'vanshika khandait ',
-    // },
+    
+  
 
 
-
-
-
-
-    // {
-    //     id: "three",
-    //     name: "Taj Lakefront Bhopal ",
-    //     type: "Deluxe Room King Bed",
-    //     rooms: "Superier Double Room",
-    //     img: "https://cf.bstatic.com/xdata/images/hotel/square600/327168421.webp?k=c6098ea9aaed1ffb49c2663ca45f156728f9ad9106178c868cb76bede2e3ef7d&o=",
-    //     geocode: [23.216161042035484, 77.38348426626894]
-    // },
-    // {
-    //     id: "four",
-    //     name: "Hotel Sarthak ",
-    //     type: "Deluxe Room King Bed",
-    //     rooms: "Superier Double Room",
-    //     img: "https://cf.bstatic.com/xdata/images/hotel/square600/327168421.webp?k=c6098ea9aaed1ffb49c2663ca45f156728f9ad9106178c868cb76bede2e3ef7d&o=",
-    //     geocode: [23.235988149932513, 77.40181448233571]
-    // },
-    // {
-    //     id: "five",
-    //     name: "Hotel soni plaza ",
-    //     type: "Deluxe Room King Bed",
-    //     rooms: "Superier Double Room",
-    //     img: "https://cf.bstatic.com/xdata/images/hotel/square600/327168421.webp?k=c6098ea9aaed1ffb49c2663ca45f156728f9ad9106178c868cb76bede2e3ef7d&o=",
-    //     geocode: [24.748257232312486, 76.1700332939146]
-    // },
-    // {
-    //     id: "six",
-    //     name: "Taj Lakefront Bhopal",
-    //     type: "Deluxe Room King Bed",
-    //     rooms: "Superior Double Room",
-    //     img: "https://cf.bstatic.com/xdata/images/hotel/square600/327168421.webp?k=c6098ea9aaed1ffb49c2663ca45f156728f9ad9106178c868cb76bede2e3ef7d&o=",
-    //     geocode: [23.216161042035484, 77.38348426626894]
-    // }
-    // {
-    //     name: "The Oberoi, Mumbai",
-    //     type: "Luxury Suite",
-    //     rooms: "Deluxe Double Room",
-    //     img: "https://example.com/oberoi_mumbai.jpg",
-    //     geocode: [18.927238867479662, 72.82044623558207]
-    // },
-    // {
-    //     name: "ITC Grand Chola, Chennai",
-    //     type: "Executive Suite",
-    //     rooms: "Deluxe King Room",
-    //     img: "https://example.com/itc_grand_chola_chennai.jpg",
-    //     geocode: [19.268108408416474, 72.75665489890258]
-    // },
-    // {
-    //     name: "Taj Mahal Palace, Mumbai",
-    //     type: "Palace Suite",
-    //     rooms: "Luxury Double Room",
-    //     img: "https://example.com/taj_mahal_palace_mumbai.jpg",
-    //     geocode: [18.92193712493058, 72.83310087605933]
-    // },
-    // {
-    //     name: "Rambagh Palace, Jaipur",
-    //     type: "Royal Suite",
-    //     rooms: "Deluxe King Room",
-    //     img: "https://example.com/rambagh_palace_jaipur.jpg",
-    //     geocode: [26.898306230127535, 75.80818735092551]
-    // },
-    // {
-    //     name: "Leela Palace, New Delhi",
-    //     type: "Presiden"tial" Suite",
-    //     rooms: "Grand King Room",
-    //     img: "https://example.com/leela_palace_delhi.jpg",
-    //     geocode: [28.580064052140667, 77.18931450674621]
-    // },
-    // {
-    //     name: "Radisson Blu Resort, Goa",
-    //     type: "Deluxe Pool View Room",
-    //     rooms: "Double Room",
-    //     img: "https://example.com/radisson_goa.jpg",
-    //     geocode: [15.176056952869681, 73.94691668446968]
-    // },
-    // {
-    //     name: "Marriott Jaipur",
-    //     type: "Marriott Suite",
-    //     rooms: "Deluxe Double Room",
-    //     img: "https://example.com/marriott_jaipur.jpg",
-    //     geocode: [26.84194158454506, 75.79616207791034]
-    // },
-    // {
-    //     name: "The Leela Goa",
-    //     type: "Beach View Suite",
-    //     rooms: "Luxury King Room",
-    //     img: "https://example.com/leela_goa.jpg",
-    //     geocode: [26.84194158454506, 75.79616207791034]
-    // },
-    // {
-    //     name: "The Westin Hyderabad",
-    //     type: "Executive Suite",
-    //     rooms: "Deluxe Twin Room",
-    //     img: "https://example.com/westin_hyderabad.jpg",
-    //     geocode: [17.442879671280576, 78.38158619140276]
-    // },
-    // {
-    //     name: "Hyatt Regency Kolkata",
-    //     type: "Hyatt Suite",
-    //     rooms: "Deluxe Queen Room",
-    //     img: "https://example.com/hyatt_kolkata.jpg",
-    //     geocode: [22.570846520250335, 88.40522809325377]
-    // },
-    // {
-    //     name: "Grand Hyatt Goa",
-    //     type: "Grand Suite",
-    //     rooms: "King Room",
-    //     img: "https://example.com/grand_hyatt_goa.jpg",
-    //     geocode: [15.451664708485026, 73.85237749325378]
-    // },
-    // {
-    //     name: "The Lalit New Delhi",
-    //     type: "Luxury Suite",
-    //     rooms: "Executive King Room",
-    //     img: "https://example.com/lalit_delhi.jpg",
-    //     geocode: [28.631944006492326, 77.22730223743308]
-    // },
-    // {
-    //     name: "Taj Coromandel, Chennai",
-    //     type: "Presiden"tial" Suite",
-    //     rooms: "Deluxe Double Room",
-    //     img: "https://example.com/taj_coromandel_chennai.jpg",
-    //     geocode: [13.058587138901808, 80.2478107644179]
-    // },
-    // {
-    //     name: "JW Marriott Mumbai",
-    //     type: "Executive Suite",
-    //     rooms: "Double Room",
-    //     img: "https://example.com/jw_marriott_mumbai.jpg",
-    //     geocode: [19.102144404301843, 72.82619647791034]
-    // },
-    // {
-    //     name: "Le Meridie"n", Jaipur",
-    //     type: "Deluxe Suite",
-    //     rooms: "Luxury King Room",
-    //     img: "https://example.com/le_meridie"n_jaipur".jpg",
-    //     geocode: [27.032260318222487, 75.88847999140276]
-    // },
-    // {
-    //     name: "Hilton Chennai",
-    //     type: "Hilton Suite",
-    //     rooms: "Deluxe Queen Room",
-    //     img: "https://example.com/hilton_chennai.jpg",
-    //     geocode: [13.016901909384313, 80.20486034449013]
-    // },
-    // {
-    //     name: "The Taj Mahal Hotel, New Delhi",
-    //     type: "Presiden"tial" Suite",
-    //     rooms: "Deluxe Double Room",
-    //     img: "https://example.com/taj_mahal_hotel_delhi.jpg",
-    //     geocode: [28.604916486058702, 77.22354377976137]
-    // },
-    // {
-    //     name: "The Leela Palace, Udaipur",
-    //     type: "Royal Suite",
-    //     rooms: "Grand King Room",
-    //     img: "https://example.com/leela_palace_udaipur.jpg",
-    //     geocode: [24.578252907928437, 73.67677737791034]
-    // },
-    // {
-    //     name: "Novotel Goa Resort & Spa",
-    //     type: "Deluxe Pool View Room",
-    //     rooms: "Double Room",
-    //     img: "https://example.com/novotel_goa.jpg",
-    //     geocode: [latitude, longitude]
-    // },
-    // {
-    //     name: "Sheraton Grand Pune",
-    //     type: "Sheraton Suite",
-    //     rooms: "Deluxe Double Room",
-    //     img: "https://example.com/sheraton_pune.jpg",
-    //     geocode: [latitude, longitude]
-    // },
-    // {
-    //     name: "The Ritz-Carlton, Bangalore",
-    //     type: "Ritz-Carlton Suite",
-    //     rooms: "Luxury King Room",
-    //     img: "https://example.com/ritz_carlton_bangalore.jpg",
-    //     geocode: [latitude, longitude]
-    // },
-    // {
-    //     name: "Hyatt Regency Goa",
-    //     type: "Hyatt Suite",
-    //     rooms: "Deluxe Queen Room",
-    //     img: "https://example.com/hyatt_goa.jpg",
-    //     geocode: [latitude, longitude]
-    // },
-    // {
-    //     name: "The Westin Chennai Velachery",
-    //     type: "Executive Suite",
-    //     rooms: "Deluxe Twin Room",
-    //     img: "https://example.com/westin_chennai.jpg",
-    //     geocode: [latitude, longitude]
-    // },
-    // {
-    //     name: "Conrad Bengaluru",
-    //     type: "Conrad Suite",
-    //     rooms: "King Room",
-    //     img: "https://example.com/conrad_bengaluru.jpg",
-    //     geocode: [latitude, longitude]
-    // }
-
+   
 ]
 
-
-console.log("hi")
-
-
-// Data.forEach(k=>{
-//     console.log(k.name)
-//     console.log(k.type)
-//     console.log(k.rooms)
-//     console.log(k.img)
-// })
-
-
-
-
-
-console.log(Data[0].id)
+ 
 export default Data

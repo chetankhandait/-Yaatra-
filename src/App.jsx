@@ -8,6 +8,7 @@ import PageSnippet from "./component/PageSnippet";
 import SepratePage from "./component/SepratePage";
 import SignIn from "./component/SignIn";
 import Signup from "./component/Signup";
+import Cancel from "./component/cancel";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -50,6 +51,7 @@ const App = () => {
 
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/sign-up" element={<Signup />} />
+            <Route path="/cancel" element={<Cancel />} />
           </Routes>
           {/* <Footer /> */}
         </BrowserRouter>
